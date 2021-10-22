@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Olá, me chamo Ronaldo Reis. Sou Desenvolvedor Front end e Web Designer. Esse é o meu portfólio e aqui você vai poder conhecer o meu trabalho.">
+  <meta name="keywords" content="Ronaldo Reis, Web designer, Front end, Criar Sites, Website, HTML, CSS, JavaScript">
+  <meta name="author" content="Ronaldo Reis">
+  <meta name="owner" content="Ronaldo Reis" />
+  <meta name="copyright" content="Ronaldo Reis (c) 2020" />
+  <meta name="title" content="Ronaldo Reis | Front End & Web Designer" />
+  <title>Ronaldo Reis | Front End & Web Designer</title>
+  <meta property="og:title" content="Ronaldo Reis | Front End & Web Designer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ronaldocreis.com/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="icone.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <ul id="listaItens">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+      </ul>
+    </ul>
+    <a href="javascript:void(0);" class="icon hamburguer">
+      <i class="fa fa-bars"></i>
+    </a>
+  </header>
+
+  <main id="inicio" class="intro container flex">
+    <div class="intro-info">
+      <h2>Olá, me chamo <span class="nome">Ronaldo Reis</span></h2>
+      <span class="tag-intro">Sou {</span>
+      <h1>Desenvolvedor Front End<br>
+      & Web Designer</h1>
+      <span class="tag-intro">}</span>
+      <p>*Resumindo, eu faço sites</p>
+    </div>
+    <div class="intro-img">
+      <img src="img/imagem-intro.png" alt="Ilustração de astronauta da introdução">
+      <img class="js-planeta planeta-3" src="img/planeta-3.png" alt="Planeta">
+      <img class="js-planeta planeta-1" src="img/planeta-1.png" alt="Planeta">
+      <img class="js-planeta planeta-2" src="img/planeta-2.png" alt="Planeta">
+    </div>
+   
+  </main>
+
+   <!-- Modal -->
+   <div class="modal">
+
+    <div class="modal-conteudo">
+
+      <div class="modal-header">
+        <h2></h2>
+        <span class="modal-fechar">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div class="modal-foto">
+          <img class="lazy" data-src="img/foto-perfil.jpg" alt="Foto de Ronaldo Reis">
+        </div>
+        <div class="modal-descricao">
+          <h3>Um pouco sobre mim</h3>
+          <p>Me chamo <span>Ronaldo Carlos dos Reis</span>, sou de <span>Mogi das Cruzes/SP</span>, tenho <span>18 anos</span>, Sou formado em <span>Tecnico em informatica para internet</span> pela Etec de Poá e atualmente curso <span>Sistemas de informação</span> na Universidade Paulista.</p>
+        </div>
+        <div class="modal-desenho">
+          <img class="lazy" data-src="img/modal.png" alt="Ilustração Sofá">
+        </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Fim do Modal -->
+
+  <section id="sobre" class="sobre">
+    <div class="shape-container">
+      <div class="shape">
+        <img src="img/shape-preto.svg" alt="Divisão de sessão">
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="h1-sessao">O que eu sei fazer</h1>
+      <!-- Sessão 1 -->
+      <div class="sobre-sessao flex">
+        <div class="sobre-img">
+          <img class="lazy" data-src="img/sobre-1.png" alt="Sobre tecnologias">
+        </div>
+        <div class="sobre-info">
+          <h2>Utilizo as seguintes linguagens</h2>
+          <ul>
+            <li>- HTML5</li>
+            <li>- CSS3</li>
+            <li>- Javascript ES6</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Sessão 2 -->
+      <div class="sobre-sessao sessao-2 flex">
+        <div class="sobre-info">
+          <h2>Design de sites responsivos</h2>
+          <p>Elaboração de sites adaptáveis a todos os tipo de dispositivos, utilizando a ferramenta de design <span>Adobe Xd</span>, mantendo a melhor experiência independente de onde o site esta sendo acessado.
+          </p>
+        </div>
+        <div class="sobre-img">
+          <img class="lazy" data-src="img/sobre-2.png" alt="Sobre design">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="shape-container">
+      <div class="shape">
+        <img src="img/shape-branco.svg" alt="Divisão de sessão">
+      </div>
+    </div>
+    <h1 class="h1-sessao">Meu Portfólio acadêmico</h1>
+    <div class="container flex">
+      <div class="portfolio-img">
+        <img class="lazy" data-src="img/portfolio.png" alt="Astronauta no espaço">
+      </div>
+      <div class="portfolio-carrosel">
+        <div class="setas">
+          <span id="carrosel-left" class="carrosel-seta"><</span>
+          <span id="carrosel-right" class="carrosel-seta">></span>
+        </div>
+        <div class="carrosel-item ativo">
+          <div class="carrosel-nome">
+            <h2>Little invest</h2>
+          </div>
+          <a href="/projetos/little-invest" target="_blank">
+            <img class="lazy" data-src="img/littleinvest.png" alt="Home Little invest">
+          </a>
+          <p>Desenvolvido no curso de Adobe Xd da Origamid.com</p>
+        </div>
+        <div class="carrosel-item">
+          <div class="carrosel-nome">
+            <h2>BandMaker</h2>
+          </div>
+          <a href="http://www.bandmaker.ronaldocreis.com/front-end/" target="_blank">
+            <img class="lazy" data-src="img/bandmaker.PNG" alt="Home BandMaker">
+          </a>
+          <p>Trabalho de conclusão de curso, Etec de poá - 2019</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contato container flex">
+    <h1 class="h1-sessao">Entre em contato</h1>
+    <div class="contato-img">
+      <img class="lazy" data-src="img/contato.png" alt="Contato Mensagem">
+    </div>
+    <div id="contato" class="contato-info">
+      <h2>Whatsapp</h2>
+      <a href="https://wa.me/5511942594783" target="_blank">+55 11 94259-4783</a>
+      <h2>Email</h2>
+      <a href="mailto:ronaldocreis7@gmail.com">ronaldocreis7@gmail.com</a>
+      <h2>LinkedIn</h2>
+      <a href="https://www.linkedin.com/in/ronaldo-reis-a31841197/" target="_blank">linkedin.com/in/ronaldo-reis-a31841197</a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p>Desenvolvido por Ronaldo Reis - 2020</p>
+    </div>
+  </footer>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Ronaldo Reis",
+      "url": "https://www.ronaldo-reis.com",
+      "address": "Mogi das Cruzes",
+      "sameAs": [
+        "https://www.facebook.com/ronaldo.reis.76",
+        "https://www.linkedin.com/in/ronaldo-reis-a31841197/"
+      ]
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNEK7P9RK4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CNEK7P9RK4');
+  </script>
+</body>
+</html>
